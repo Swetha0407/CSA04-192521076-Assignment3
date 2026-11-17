@@ -1,0 +1,3 @@
+Before fork maxRSS=34816KB minor=8928
+Child after writes maxRSS=33400KB minor=8265
+Before fork maxRSS=34816KB minor=8928

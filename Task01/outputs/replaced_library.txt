@@ -1,0 +1,55 @@
+Encryption library v2: banktransaction
+PID 1633; see /proc/1633/maps
+55893e7f4000-55893e7f5000 r--p 00000000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+55893e7f5000-55893e7f6000 r-xp 00001000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+55893e7f6000-55893e7f7000 r--p 00002000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+55893e7f7000-55893e7f8000 r--p 00002000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+55893e7f8000-55893e7f9000 rw-p 00003000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+7f5bd41ff000-7f5bd4200000 ---p 00000000 00:00 0 
+7f5bd4200000-7f5bd4a00000 rw-p 00000000 00:00 0 
+7f5bd4a00000-7f5bd4e00000 rw-p 00000000 00:00 0 
+7f5bd4fb8000-7f5bd4fbd000 rw-p 00000000 00:00 0 
+7f5bd4fbd000-7f5bd4fc1000 r--p 00000000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f5bd4fc1000-7f5bd4fe4000 r-xp 00004000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f5bd4fe4000-7f5bd4fe8000 r--p 00027000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f5bd4fe8000-7f5bd4fe9000 r--p 0002b000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f5bd4fe9000-7f5bd4fea000 rw-p 0002c000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f5bd4fea000-7f5bd4fec000 rw-p 00000000 00:00 0 
+7f5bd4fec000-7f5bd5089000 r--p 00000000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f5bd5089000-7f5bd51b2000 r-xp 0009d000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f5bd51b2000-7f5bd5240000 r--p 001c6000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f5bd5240000-7f5bd524b000 r--p 00254000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f5bd524b000-7f5bd524e000 rw-p 0025f000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f5bd524e000-7f5bd5252000 rw-p 00000000 00:00 0 
+7f5bd5252000-7f5bd5263000 r--p 00000000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f5bd5263000-7f5bd52e0000 r-xp 00011000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f5bd52e0000-7f5bd5340000 r--p 0008e000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f5bd5340000-7f5bd5341000 r--p 000ed000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f5bd5341000-7f5bd5342000 rw-p 000ee000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f5bd5342000-7f5bd536a000 r--p 00000000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f5bd536a000-7f5bd54cd000 r-xp 00028000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f5bd54cd000-7f5bd5523000 r--p 0018b000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f5bd5523000-7f5bd5527000 r--p 001e0000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f5bd5527000-7f5bd5529000 rw-p 001e4000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f5bd5529000-7f5bd5536000 rw-p 00000000 00:00 0 
+7f5bd5542000-7f5bd5543000 r--p 00000000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f5bd5543000-7f5bd5544000 r-xp 00001000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f5bd5544000-7f5bd5545000 r--p 00002000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f5bd5545000-7f5bd5546000 r--p 00002000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f5bd5546000-7f5bd5547000 rw-p 00003000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f5bd5547000-7f5bd5550000 r--p 00000000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f5bd5550000-7f5bd55f7000 r-xp 00009000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f5bd55f7000-7f5bd560f000 r--p 000b0000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f5bd560f000-7f5bd5615000 r--p 000c7000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f5bd5615000-7f5bd5616000 rw-p 000cd000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f5bd5616000-7f5bd5677000 rw-p 00000000 00:00 0 
+7f5bd5677000-7f5bd567b000 r--p 00000000 00:00 0                          [vvar]
+7f5bd567b000-7f5bd567d000 r--p 00000000 00:00 0                          [vvar_vclock]
+7f5bd567d000-7f5bd567f000 r-xp 00000000 00:00 0                          [vdso]
+7f5bd567f000-7f5bd5680000 r--p 00000000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f5bd5680000-7f5bd56a8000 r-xp 00001000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f5bd56a8000-7f5bd56b3000 r--p 00029000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f5bd56b3000-7f5bd56b5000 r--p 00034000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f5bd56b5000-7f5bd56b6000 rw-p 00036000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f5bd56b6000-7f5bd56b7000 rw-p 00000000 00:00 0 
+7ffd5e449000-7ffd5e46b000 rw-p 00000000 00:00 0                          [stack]

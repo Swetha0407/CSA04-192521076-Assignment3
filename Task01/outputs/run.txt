@@ -1,0 +1,124 @@
+== sizes ==
+-rwxr-xr-x 1 oai oai_shared  16K Nov 17 13:34 app_dynamic
+-rwxr-xr-x 1 oai oai_shared 741K Nov 17 13:34 app_static
+-rw-r--r-- 1 oai oai_shared 1.7K Nov 17 13:34 libencrypt.a
+-rwxr-xr-x 1 oai oai_shared  16K Nov 17 13:34 libencrypt.so
+== ldd ==
+	linux-vdso.so.1 (0x00007f024aedb000)
+	/usr/lib/x86_64-linux-gnu/libjemalloc.so.2 (0x00007f024ada0000)
+	libencrypt.so => /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/./libencrypt.so (0x00007f024ad9b000)
+	libc.so.6 => /lib/x86_64-linux-gnu/libc.so.6 (0x00007f024ab96000)
+	libm.so.6 => /lib/x86_64-linux-gnu/libm.so.6 (0x00007f024aaa6000)
+	libstdc++.so.6 => /lib/x86_64-linux-gnu/libstdc++.so.6 (0x00007f024a83e000)
+	libgcc_s.so.1 => /lib/x86_64-linux-gnu/libgcc_s.so.1 (0x00007f024a811000)
+	/lib64/ld-linux-x86-64.so.2 (0x00007f024aedd000)
+== dlopen/dlsym/maps ==
+Encryption library v1: banktransaction
+PID 1606; see /proc/1606/maps
+556e2f4c5000-556e2f4c6000 r--p 00000000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+556e2f4c6000-556e2f4c7000 r-xp 00001000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+556e2f4c7000-556e2f4c8000 r--p 00002000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+556e2f4c8000-556e2f4c9000 r--p 00002000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+556e2f4c9000-556e2f4ca000 rw-p 00003000 00:1b 524926                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/app_dlopen
+7f18fc7ff000-7f18fc800000 ---p 00000000 00:00 0 
+7f18fc800000-7f18fd000000 rw-p 00000000 00:00 0 
+7f18fd000000-7f18fd400000 rw-p 00000000 00:00 0 
+7f18fd4db000-7f18fd4e0000 rw-p 00000000 00:00 0 
+7f18fd4e0000-7f18fd4e4000 r--p 00000000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f18fd4e4000-7f18fd507000 r-xp 00004000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f18fd507000-7f18fd50b000 r--p 00027000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f18fd50b000-7f18fd50c000 r--p 0002b000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f18fd50c000-7f18fd50d000 rw-p 0002c000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f18fd50d000-7f18fd50f000 rw-p 00000000 00:00 0 
+7f18fd50f000-7f18fd5ac000 r--p 00000000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f18fd5ac000-7f18fd6d5000 r-xp 0009d000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f18fd6d5000-7f18fd763000 r--p 001c6000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f18fd763000-7f18fd76e000 r--p 00254000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f18fd76e000-7f18fd771000 rw-p 0025f000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f18fd771000-7f18fd775000 rw-p 00000000 00:00 0 
+7f18fd775000-7f18fd786000 r--p 00000000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f18fd786000-7f18fd803000 r-xp 00011000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f18fd803000-7f18fd863000 r--p 0008e000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f18fd863000-7f18fd864000 r--p 000ed000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f18fd864000-7f18fd865000 rw-p 000ee000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f18fd865000-7f18fd88d000 r--p 00000000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f18fd88d000-7f18fd9f0000 r-xp 00028000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f18fd9f0000-7f18fda46000 r--p 0018b000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f18fda46000-7f18fda4a000 r--p 001e0000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f18fda4a000-7f18fda4c000 rw-p 001e4000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f18fda4c000-7f18fda59000 rw-p 00000000 00:00 0 
+7f18fda65000-7f18fda66000 r--p 00000000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f18fda66000-7f18fda67000 r-xp 00001000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f18fda67000-7f18fda68000 r--p 00002000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f18fda68000-7f18fda69000 r--p 00002000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f18fda69000-7f18fda6a000 rw-p 00003000 00:1b 524924                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task01/libencrypt.so
+7f18fda6a000-7f18fda73000 r--p 00000000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f18fda73000-7f18fdb1a000 r-xp 00009000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f18fdb1a000-7f18fdb32000 r--p 000b0000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f18fdb32000-7f18fdb38000 r--p 000c7000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f18fdb38000-7f18fdb39000 rw-p 000cd000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f18fdb39000-7f18fdb9a000 rw-p 00000000 00:00 0 
+7f18fdb9a000-7f18fdb9e000 r--p 00000000 00:00 0                          [vvar]
+7f18fdb9e000-7f18fdba0000 r--p 00000000 00:00 0                          [vvar_vclock]
+7f18fdba0000-7f18fdba2000 r-xp 00000000 00:00 0                          [vdso]
+7f18fdba2000-7f18fdba3000 r--p 00000000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f18fdba3000-7f18fdbcb000 r-xp 00001000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f18fdbcb000-7f18fdbd6000 r--p 00029000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f18fdbd6000-7f18fdbd8000 r--p 00034000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f18fdbd8000-7f18fdbd9000 rw-p 00036000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f18fdbd9000-7f18fdbda000 rw-p 00000000 00:00 0 
+7ffff0ab2000-7ffff0ad4000 rw-p 00000000 00:00 0                          [stack]
+== time dynamic ==
+Bank application
+Encryption library v1: banktransaction
+	Command being timed: "./app_dynamic"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 100%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 2176
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 689
+	Voluntary context switches: 2
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+== time static ==
+Bank application
+Encryption library v1: banktransaction
+	Command being timed: "./app_static"
+	User time (seconds): 0.00
+	System time (seconds): 0.00
+	Percent of CPU this job got: 0%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:00.00
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 0
+	Minor (reclaiming a frame) page faults: 113
+	Voluntary context switches: 1
+	Involuntary context switches: 0
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 0
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+== missing library ==
+dlopen: ./missing.so: cannot open shared object file: No such file or directory

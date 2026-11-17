@@ -1,0 +1,1 @@
+EAT=(1-p)×100ns+p×8,000,000ns. p=1/1,000 => 8,099.9ns; 1/100,000 => 179.999ns; 1/1,000,000 => 107.9999ns. For 10% slowdown (110ns), p≤10/(8,000,000−100)≈1.25×10^-6. Demand paging lets a 24GB virtual workload run with 16GB RAM only when its active working set fits; otherwise thrashing can dominate.

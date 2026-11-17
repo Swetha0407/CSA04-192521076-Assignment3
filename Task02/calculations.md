@@ -1,0 +1,1 @@
+4 KiB pages: 32-bit address space has 2^20 pages; with 4-byte PTEs, flat table = 4 MiB. 48-bit address space has 2^36 pages; with 8-byte PTEs, flat table = 512 GiB (hence hierarchical/sparse tables). EAT assumption: TLB lookup 10 ns, memory 100 ns; EAT=h(110)+(1-h)(210) ns.

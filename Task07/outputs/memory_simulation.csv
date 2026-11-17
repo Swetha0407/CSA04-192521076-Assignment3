@@ -1,0 +1,4 @@
+task,reserved_mib,frames,fifo_faults
+real_time_control,128,32,5
+machine_learning,1536,384,5
+logging,128,32,5

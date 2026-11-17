@@ -1,0 +1,3 @@
+without mlockall avg 29.3 ns worst observed 132494.0 ns (not hard RT)
+mlockall failed: Cannot allocate memory
+RLIMIT_MEMLOCK soft=8388608 hard=8388608

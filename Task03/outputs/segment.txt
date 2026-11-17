@@ -1,0 +1,56 @@
+(0,0) code: physical 10000
+(0,4095) code: physical 14095
+(0,4096): protection fault (limit 4095)
+(1,500) data: physical 20500
+(1,8192): protection fault (limit 8191)
+(2,2047) stack: physical 42047
+
+/proc/1710/maps
+55ae31b19000-55ae31b1a000 r--p 00000000 00:1b 524934                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task03/segment
+55ae31b1a000-55ae31b1b000 r-xp 00001000 00:1b 524934                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task03/segment
+55ae31b1b000-55ae31b1c000 r--p 00002000 00:1b 524934                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task03/segment
+55ae31b1c000-55ae31b1d000 r--p 00002000 00:1b 524934                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task03/segment
+55ae31b1d000-55ae31b1e000 rw-p 00003000 00:1b 524934                     /mnt/data/CSA04-192521076-Assignment3_Submission/Task03/segment
+7f485abff000-7f485ac00000 ---p 00000000 00:00 0 
+7f485ac00000-7f485b400000 rw-p 00000000 00:00 0 
+7f485b400000-7f485b800000 rw-p 00000000 00:00 0 
+7f485b954000-7f485b959000 rw-p 00000000 00:00 0 
+7f485b959000-7f485b95d000 r--p 00000000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f485b95d000-7f485b980000 r-xp 00004000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f485b980000-7f485b984000 r--p 00027000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f485b984000-7f485b985000 r--p 0002b000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f485b985000-7f485b986000 rw-p 0002c000 00:1b 9223372036855854684        /usr/lib/x86_64-linux-gnu/libgcc_s.so.1
+7f485b986000-7f485b988000 rw-p 00000000 00:00 0 
+7f485b988000-7f485ba25000 r--p 00000000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f485ba25000-7f485bb4e000 r-xp 0009d000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f485bb4e000-7f485bbdc000 r--p 001c6000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f485bbdc000-7f485bbe7000 r--p 00254000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f485bbe7000-7f485bbea000 rw-p 0025f000 00:1b 9223372036855856421        /usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.33
+7f485bbea000-7f485bbee000 rw-p 00000000 00:00 0 
+7f485bbee000-7f485bbff000 r--p 00000000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f485bbff000-7f485bc7c000 r-xp 00011000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f485bc7c000-7f485bcdc000 r--p 0008e000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f485bcdc000-7f485bcdd000 r--p 000ed000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f485bcdd000-7f485bcde000 rw-p 000ee000 00:1b 9223372036855859805        /usr/lib/x86_64-linux-gnu/libm.so.6
+7f485bcde000-7f485bd06000 r--p 00000000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f485bd06000-7f485be69000 r-xp 00028000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f485be69000-7f485bebf000 r--p 0018b000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f485bebf000-7f485bec3000 r--p 001e0000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f485bec3000-7f485bec5000 rw-p 001e4000 00:1b 9223372036855854193        /usr/lib/x86_64-linux-gnu/libc.so.6
+7f485bec5000-7f485bed2000 rw-p 00000000 00:00 0 
+7f485bee3000-7f485beec000 r--p 00000000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f485beec000-7f485bf93000 r-xp 00009000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f485bf93000-7f485bfab000 r--p 000b0000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f485bfab000-7f485bfb1000 r--p 000c7000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f485bfb1000-7f485bfb2000 rw-p 000cd000 00:1b 9223372036855855180        /usr/lib/x86_64-linux-gnu/libjemalloc.so.2
+7f485bfb2000-7f485c013000 rw-p 00000000 00:00 0 
+7f485c013000-7f485c017000 r--p 00000000 00:00 0                          [vvar]
+7f485c017000-7f485c019000 r--p 00000000 00:00 0                          [vvar_vclock]
+7f485c019000-7f485c01b000 r-xp 00000000 00:00 0                          [vdso]
+7f485c01b000-7f485c01c000 r--p 00000000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f485c01c000-7f485c044000 r-xp 00001000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f485c044000-7f485c04f000 r--p 00029000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f485c04f000-7f485c051000 r--p 00034000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f485c051000-7f485c052000 rw-p 00036000 00:1b 9223372036855853181        /usr/lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+7f485c052000-7f485c053000 rw-p 00000000 00:00 0 
+7fff81e27000-7fff81e49000 rw-p 00000000 00:00 0                          [stack]
